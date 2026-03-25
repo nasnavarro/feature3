@@ -49,6 +49,7 @@ header {
 /* Contenido principal */
 main {
   max-width: var(--max-width-global);
+  width:100%;
   flex: 1;
   padding: 1rem;
   margin-top: var(--main-top);
@@ -80,13 +81,17 @@ footer a:hover {
 
 /* Estilos para el título de la página */
 h1 {
+  width: fit-content;
   font-size: var(--font-size-5xl);
   font-weight: bold;
   color: var(--color-header-primary);
+  padding-bottom: 10px;
+  border-bottom: 3px solid var(--color-header-primary);
   margin-bottom: 1rem;
 }
 
 h2 {
+  width: fit-content;
   font-size: var(--font-size-2xl);
   font-weight: bold;
   color: var(--color-header-tertiary);
@@ -94,6 +99,7 @@ h2 {
 }
 
 h3 {
+  width: fit-content;
   font-size: var(--font-size-lg);
   font-weight: bold;
   color: var(--color-header-secondary);
@@ -101,6 +107,7 @@ h3 {
 }
 
 h4 {
+  width: fit-content;
   font-size: var(--font-size-md);
   font-weight: bold;
   color: var(--color-header-primary);
@@ -131,6 +138,12 @@ p {
   line-height: var(--line-height-normal);
   color: var(--color-text-primary);
   margin-bottom: 1rem;
+}
+
+p.section-intro {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
 }
 
 a {
