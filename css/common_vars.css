@@ -1,5 +1,5 @@
 /* Reseteo de css */
-@import url('./_reset.css');
+@import url('./common_reset.css');
 
 /* Importaciones de fuentes externas */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');

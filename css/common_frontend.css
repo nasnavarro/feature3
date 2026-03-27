@@ -1,6 +1,6 @@
 /* Importamos en orden los css */
-@import url('./_vars.css');
-@import url('./_menu.css');
+@import url('./common_vars.css');
+@import url('./common_menu.css');
 
 body {
   margin: 0;
