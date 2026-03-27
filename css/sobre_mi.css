@@ -365,7 +365,7 @@ article h2{
 }
 
 .valor-titulo {
-    font-size: var(--font-size-lg, 1.05rem);
+    font-size: var(--font-size-xl, 1.05rem);
     font-weight: 600;
     color: var(--color-text-primary);
     margin: 0 0 8px;
