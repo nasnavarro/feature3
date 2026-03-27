@@ -11,8 +11,14 @@
   /* Paleta de colores en base a #00343C de Valdecantos. */
   --color-primary: #00434C;        /* Verde azulado oscuro - principal */
   --color-primary-rgb: 0, 67, 76;  /* Verde azulado oscuro - principal */
+  --color-primary-light: #CCE8EB;  /* Verde azulado muy claro - fondos */
+  --color-primary-dark: #002830;   /* Verde azulado muy oscuro - texto */
   --color-secondary: #B29F09;      /* Amarillo mostaza - secundario */
+  --color-secondary-light: #F5EFBA; /* Amarillo mostaza muy claro - fondos */
+  --color-secondary-dark: #7A6B06;  /* Amarillo mostaza muy oscuro - texto */
   --color-tertiary: #E85D3A;       /* Naranja terracota - terciario */
+  --color-tertiary-light: #FBDDD6; /* Naranja terracota muy claro - fondos */
+  --color-tertiary-dark: #A03420;  /* Naranja terracota muy oscuro - texto */
   --color-neutral-light: #F5F5F5;  /* Gris muy claro - fondos */
   --color-neutral-dark: #2C3E50;   /* Gris azulado oscuro - texto */
 

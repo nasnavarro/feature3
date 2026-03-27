@@ -3,6 +3,12 @@
 section, article {
     margin-bottom: 40px;
 }
+article h2{
+    margin: 60px 0 20px 0;
+    width: 100%;
+    border-bottom: 2px solid var(--color-secondary);
+    padding-bottom:8px;
+}
 
 /* INICIO BLOQUE ABOUT ME DE LA SECCIÓN */
 
@@ -310,5 +316,96 @@ section, article {
 
 
 /* INICIO BLOQUE VALORES DE LA SECCIÓN */
+.valores-lista {
+    display: flex;
+    flex-direction: column;
+}
 
+.valor-item {
+    display: flex;
+    align-items: stretch;
+    position: relative;
+    padding: 2rem 0 2rem 1.5rem;
+    border-bottom: 1px solid var(--color-border);
+    overflow: hidden;
+}
+
+.valor-item:last-child {
+    border-bottom: none;
+}
+
+.valor-num {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 6rem;
+    font-weight: 700;
+    color: var(--color-border);
+    opacity: 0.4;
+    line-height: 1;
+    user-select: none;
+    pointer-events: none;
+}
+
+/* Líneas de acento laterales */
+.valor-acento {
+    width: 3px;
+    flex-shrink: 0;
+    margin-right: 1.5rem;
+    border-radius: 0;
+}
+
+.valor-acento--teal  { background-color: var(--color-primary); }
+.valor-acento--coral { background-color: var(--color-secondary); }
+.valor-acento--blue  { background-color: var(--color-tertiary); }
+
+.valor-body {
+    flex: 1;
+}
+
+.valor-titulo {
+    font-size: var(--font-size-lg, 1.05rem);
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin: 0 0 8px;
+}
+
+.valor-frase {
+    font-size: var(--font-size-base);
+    color: var(--color-text-secondary, #555);
+    font-style: italic;
+    line-height: 1.6;
+    margin: 0 0 12px;
+}
+
+.valor-tags {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.valor-tag {
+    font-size: 0.72rem;
+    font-weight: 500;
+    padding: 2px 10px;
+    border-radius: 20px;
+}
+
+.valor-tag--teal  { background-color: var(--color-primary-light); color: var(--color-primary-dark); border: 1px solid var(--color-primary); }
+.valor-tag--coral { background-color: var(--color-secondary-light); color: var(--color-secondary-dark); border: 1px solid var(--color-secondary); }
+.valor-tag--blue  { background-color: var(--color-tertiary-light); color: var(--color-tertiary-dark); border: 1px solid var(--color-tertiary); }
+
+@media (max-width: 768px) {
+    .valor-num {
+        font-size: 4rem;
+        right: 0.5rem;
+    }
+    .valor-item {
+        padding: 1.5rem 0 1.5rem 1rem;
+    }
+}
 /* FIN BLOQUE VALORES DE LA SECCIÓN */
